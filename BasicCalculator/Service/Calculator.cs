@@ -157,7 +157,7 @@ namespace BasicCalculator.Service
             }
             else if (currOutput.Result > 0)
             {
-                if (experssion.StartsWith('-') || experssion.StartsWith('*') || experssion.StartsWith('/') || experssion.StartsWith('+'))
+                if (experssion.StartsWith('-') || experssion.StartsWith('X') || experssion.StartsWith('/') || experssion.StartsWith('+'))
                 {
                     currOutput.Result = 0;
                     if (experssion.StartsWith('-'))

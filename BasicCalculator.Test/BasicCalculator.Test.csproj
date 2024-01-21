@@ -22,4 +22,7 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
+  </ItemGroup>
 </Project>
